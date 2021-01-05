@@ -1,0 +1,20 @@
+$primary: #E0B973;
+
+
+
+button, .btn {
+border: none;
+text-transform: uppercase;
+background: none;
+color: white;
+font-weight: 700;
+padding: 1.0rem 1.5rem;
+border-radius: 5px;
+&-primary{
+    background: $primary;
+
+}
+
+
+
+}
