@@ -11,7 +11,7 @@ button, .btn {
 button-primary, .btn-primary {
   background: #E0B973;
   font-size: 0.8rem;
-  left: 1rem;
+  left: 2rem;
 }
 
 body {
@@ -141,16 +141,7 @@ header .left-text p {
 
 header .book {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 2.8rem;
+  margin-top: 3.1rem;
 }
 
 header .book .fa {
@@ -174,5 +165,26 @@ header .scroll h3 {
   font-size: 1rem;
   line-height: 1.9rem;
   font-weight: 700;
+}
+
+#facilities {
+  margin: 0;
+  padding: 0;
+}
+
+#facilities .facilities-head {
+  font-family: Adobe Garamond Pro;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  line-height: 4.5rem;
+  letter-spacing: 5%;
+}
+
+#facilities .facilities-text {
+  font-family: montserrat;
+  font-weight: 400;
+  font-style: normal;
 }
 /*# sourceMappingURL=index.css.map */
