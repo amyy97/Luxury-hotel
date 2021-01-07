@@ -151,13 +151,6 @@ header .book .fa {
 
 header .scroll {
   margin: 1.4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
 }
 
 header .scroll h3 {
@@ -180,11 +173,27 @@ header .scroll h3 {
   text-transform: uppercase;
   line-height: 4.5rem;
   letter-spacing: 5%;
+  color: #14274a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #facilities .facilities-text {
   font-family: montserrat;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
+  font-size: 0.9rem;
+  line-height: 1.9rem;
+  color: #14274a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=index.css.map */

@@ -132,9 +132,6 @@ header{
     }
     .scroll{
         margin: 1.4rem;
-        display: flex;
-        justify-content: center;
-        position: relative;
 
         h3{
             color: white;
@@ -158,12 +155,21 @@ header{
         text-transform: uppercase;
         line-height: 4.5rem;
         letter-spacing: 5%;
+        color: $secondary;
+        display: flex;
+        justify-content: center;
     }
 
     .facilities-text{
         font-family: montserrat;
-        font-weight: 400;
+        font-weight: 200;
         font-style: normal;
+        font-size: 0.9rem;
+        line-height: 1.9rem;
+        color: $secondary;
+        display: flex;
+        justify-content: center;
+
     }
 }
 
