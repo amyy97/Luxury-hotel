@@ -4,12 +4,14 @@ button, .btn {
   background: none;
   color: white;
   font-weight: 700;
-  padding: 1.0rem 1.5rem;
+  padding: 0.7rem 2rem;
   border-radius: 5px;
 }
 
 button-primary, .btn-primary {
   background: #E0B973;
+  font-size: 0.8rem;
+  left: 1rem;
 }
 
 body {
@@ -19,7 +21,6 @@ body {
 }
 
 header {
-  position: relative;
   background-image: url("./asset/Background.jpg");
   height: 100vmin;
   background-position: center;
@@ -31,7 +32,7 @@ header .overlay {
   background-color: rgba(20, 39, 74, 0.5);
   position: absolute;
   height: inherit;
-  opacity: 0.9;
+  opacity: 1.6;
   top: 0;
   left: 0;
   width: 100%;
@@ -41,18 +42,20 @@ header .logo {
   font-family: adobe-garamond-pro, serif;
   font-weight: 700;
   position: absolute;
-  left: 3rem;
+  left: 4rem;
   background-color: #E0B973;
-  border-radius: 0% 0% 25% 25%;
+  border-radius: 0% 0% 30% 30%;
   padding: 1.2rem;
   color: #14274a;
+  height: 7rem;
 }
 
 header .logo h2 {
-  margin: 0;
+  margin-top: 1.2rem;
   font-size: 40px;
   letter-spacing: 0.15em;
   line-height: 1.5rem;
+  font-weight: bold;
 }
 
 header .logo p {
@@ -96,8 +99,8 @@ header nav ul li.active {
 
 header .left-text {
   color: white;
-  padding: 5rem 0 0 3rem;
-  margin: 0;
+  padding: 9rem 0 0 4.3rem;
+  position: relative;
 }
 
 header .left-text h3 {
@@ -117,7 +120,8 @@ header .left-text h1 {
   margin: 0;
   font-family: Adobe Garamond Pro;
   letter-spacing: 0.07em;
-  line-height: 4.3rem;
+  line-height: 5.2rem;
+  color: white;
 }
 
 header .left-text h2 {
@@ -126,43 +130,49 @@ header .left-text h2 {
   text-transform: uppercase;
   letter-spacing: 0.4em;
   font-size: 2.5rem;
-  line-height: 4.3rem;
+  line-height: 2.4rem;
 }
 
 header .left-text p {
   font-size: 0.9rem;
   letter-spacing: 0.1em;
-  line-height: 1.175rem;
+  line-height: 1.3rem;
 }
 
 header .book {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 2.8rem;
 }
 
 header .book .fa {
   float: left;
+  margin-top: 0.2rem;
 }
 
 header .scroll {
-  margin: 2.6obrem;
+  margin: 1.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 header .scroll h3 {
   color: white;
+  font-size: 1rem;
+  line-height: 1.9rem;
+  font-weight: 700;
 }
 /*# sourceMappingURL=index.css.map */
